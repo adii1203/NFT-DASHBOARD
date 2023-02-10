@@ -9,54 +9,213 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <div class="nav-wrapper">
-                <div class="search-box">
-                    <svg class="search-icon nav-icon" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <div class="container">
+        <div class="header-wrapper">
+          <div class="search-box">
+            <svg  class="search-icon" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-                        
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-                        
-                        <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M11 5C7.68629 5 5 7.68629 5 11C5 14.3137 7.68629 17 11 17C14.3137 17 17 14.3137 17 11C17 7.68629 14.3137 5 11 5ZM3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.8487 18.3729 14.551 17.3199 15.9056L20.7071 19.2929C21.0976 19.6834 21.0976 20.3166 20.7071 20.7071C20.3166 21.0976 19.6834 21.0976 19.2929 20.7071L15.9056 17.3199C14.551 18.3729 12.8487 19 11 19C6.58172 19 3 15.4183 3 11Z" fill="#0F1729"/> </g>
-                        
-                    </svg>
+                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M11 5C7.68629 5 5 7.68629 5 11C5 14.3137 7.68629 17 11 17C14.3137 17 17 14.3137 17 11C17 7.68629 14.3137 5 11 5ZM3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11C19 12.8487 18.3729 14.551 17.3199 15.9056L20.7071 19.2929C21.0976 19.6834 21.0976 20.3166 20.7071 20.7071C20.3166 21.0976 19.6834 21.0976 19.2929 20.7071L15.9056 17.3199C14.551 18.3729 12.8487 19 11 19C6.58172 19 3 15.4183 3 11Z" fill="#0F1729"/> </g>
+                </svg>
 
-                    <input type="text" name="search" id="search" placeholder="Search items,collections and user">
+                <input type="text" name="" id="search" class="search" placeholder="search">
+
+                <svg  class="filter-icon" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
                     
-                    <svg class="filter-icon nav-icon" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-                        
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-                        
-                        <g id="SVGRepo_iconCarrier"> <path d="M12 7L20 7" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <path d="M4 7L8 7" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <path d="M17 17L20 17" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <path d="M4 17L12 17" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <circle cx="10" cy="7" r="2" transform="rotate(90 10 7)" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <circle cx="15" cy="17" r="2" transform="rotate(90 15 17)" stroke="#000000" stroke-width="2" stroke-linecap="round"/> </g>
-                        
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    
+                    <g id="SVGRepo_iconCarrier"> <path d="M12 7L20 7" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <path d="M4 7L8 7" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <path d="M17 17L20 17" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <path d="M4 17L12 17" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <circle cx="10" cy="7" r="2" transform="rotate(90 10 7)" stroke="#000000" stroke-width="2" stroke-linecap="round"/> <circle cx="15" cy="17" r="2" transform="rotate(90 15 17)" stroke="#000000" stroke-width="2" stroke-linecap="round"/> </g>
+                    
                     </svg>
+        </div>
+       
+        <div class="profile">
+            <div class="notification">
+                <svg class="notification-icon " width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(45)">
+    
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    
+                    <g id="SVGRepo_iconCarrier"> <g id="style=stroke"> <g id="notification-bell"> <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M8.87378 18.6934C9.28799 18.6934 9.62378 19.0291 9.62378 19.4434C9.62378 19.6166 9.66765 19.7955 9.76263 19.9722C9.85831 20.15 10.0063 20.3258 10.21 20.4827C10.4138 20.6396 10.6653 20.7712 10.9534 20.8631C11.2413 20.955 11.5544 21.0035 11.8734 21.0035C12.1923 21.0035 12.5054 20.955 12.7933 20.8631C13.0814 20.7712 13.3329 20.6396 13.5367 20.4827C13.7404 20.3258 13.8884 20.15 13.9841 19.9722C14.0791 19.7955 14.1229 19.6166 14.1229 19.4434C14.1229 19.0291 14.4587 18.6934 14.8729 18.6934C15.2871 18.6934 15.6229 19.0291 15.6229 19.4434C15.6229 19.8769 15.5116 20.2987 15.3051 20.6827C15.0993 21.0653 14.8054 21.3989 14.452 21.6711C14.0987 21.9431 13.6889 22.1519 13.2492 22.2922C12.8093 22.4325 12.3422 22.5035 11.8734 22.5035C11.4045 22.5035 10.9374 22.4325 10.4975 22.2922C10.0578 22.1519 9.64798 21.9431 9.29471 21.6711C8.94129 21.3989 8.64739 21.0653 8.44158 20.6827C8.23509 20.2987 8.12378 19.8769 8.12378 19.4434C8.12378 19.0291 8.45957 18.6934 8.87378 18.6934Z" fill="#000000"/> <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd" d="M8.28966 2.36993C10.5476 1.24631 13.1934 1.20809 15.4828 2.26601L15.6874 2.36056C18.0864 3.46909 19.6223 5.87083 19.6223 8.51353L19.6223 9.82417C19.6223 10.8777 19.8519 11.9185 20.2951 12.8742L20.5598 13.445C21.7754 16.0663 20.1923 19.1303 17.3509 19.6555L17.2146 18.918L17.3509 19.6555L17.1907 19.6851C13.6756 20.3349 10.0711 20.3349 6.55594 19.6851C3.6763 19.1529 2.15285 15.967 3.54631 13.3914L3.77272 12.9729C4.3316 11.9399 4.62426 10.7839 4.62426 9.60942L4.62426 8.28813C4.62426 5.77975 6.04397 3.48746 8.28966 2.36993ZM14.8536 3.62766C12.9772 2.76057 10.8086 2.7919 8.95794 3.71284C7.22182 4.57679 6.12426 6.34893 6.12426 8.28813L6.12426 9.60942C6.12426 11.0332 5.76949 12.4345 5.09201 13.6867L4.86561 14.1052C3.95675 15.785 4.95039 17.863 6.82857 18.2101C10.1635 18.8265 13.5832 18.8265 16.9181 18.2101L17.0783 18.1805C18.9561 17.8334 20.0024 15.8084 19.199 14.076L18.9343 13.5053C18.3994 12.3518 18.1223 11.0956 18.1223 9.82416L18.1223 8.51353C18.1223 6.45566 16.9263 4.58543 15.0582 3.72221L14.8536 3.62766Z" fill="#000000"/> </g> </g> </g>
+                    
+                    </svg>
+            </div>
+              
+           
+            <div class="profile-settings">
+            <img  src="images/avatar.png" alt="">
+        </div> 
+        <div class="nav-wrapper">
+            <nav class="nav">
+            <div class="profile-items">
+                <img src="images/avatar.png" alt="">
+                <p class="status">admin</p>
+                <p class="user-name">aditya</p>
+            </div>
+            <ul class="nav-list">
+                <li class="list-items">
+                    <img src="icons/dashboard-svgrepo-com (1).svg" alt="">
+                    <p>dashboard</p>
+                </li>
+                <li class="list-items"> 
+                    <img src="icons/filter-market-ecommerce-svgrepo-com.svg" alt="">
+                    <p>market</p>
+                </li>
+                <li class="list-items">
+                    <img src="icons/host-group-svgrepo-com.svg" alt="">
+                    <p>active bids</p>
+                </li>
+                <li class="list-items"> 
+                    
+                    <img src="icons/favorite-svgrepo-com.svg" alt="">
+                    <p>favorites</p>
+                </li>
+                <li class="list-items"> 
+                    <img src="icons/portfolio-svgrepo-com.svg" alt="">
+                    <p>portfolio</p>
+                </li>
+                <li class="list-items"> 
+                    <img src="icons/wallet-1-svgrepo-com.svg" alt="">
+                    <p>wallet</p>
+                </li>
+                <li class="list-items">
+                    <div class="balance">
+
+                    </div>
+                </li>
+                <li class="list-items"> 
+                    <img src="icons/logout-circle-r-svgrepo-com.svg" alt="">
+                    <p>logout</p>
+                </li>
+            </ul>
+            </nav>
+        </div>
+        </div>
+    </div>
+    </header>
+
+
+
+
+<div class="container">
+    <main>
+        <div class="odd-row">
+          <div class="main-banner">
+            <h1>collect your <br> nft here</h1>
+            <button>explore now</button>
+          </div>
+          <div class="trending-section">
+          <p class="section-heading">trending nft's <span>🔥</span></p>
+          <div class="trending-wrapper">
+            <div class="cards">
+                <img src="images/banner-2.jpg" alt="">
+                <div class="text-box">
+                <p>Design Arts</p>
+                <div>
+                    <div class="user-id">
+                    <p>@Design_11</p>
+                    <div>
+                       <img src="images/ethereum-svgrepo-com (3).svg" alt="">
+                        <p>70</p>
+                    </div>
                 </div>
-
-                <div class="avtar-box">
-                    <div class="notification">
-                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(45)">
-
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-                            
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-                            
-                            <g id="SVGRepo_iconCarrier"> <g id="style=stroke"> <g id="notification-bell"> <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M8.87378 18.6934C9.28799 18.6934 9.62378 19.0291 9.62378 19.4434C9.62378 19.6166 9.66765 19.7955 9.76263 19.9722C9.85831 20.15 10.0063 20.3258 10.21 20.4827C10.4138 20.6396 10.6653 20.7712 10.9534 20.8631C11.2413 20.955 11.5544 21.0035 11.8734 21.0035C12.1923 21.0035 12.5054 20.955 12.7933 20.8631C13.0814 20.7712 13.3329 20.6396 13.5367 20.4827C13.7404 20.3258 13.8884 20.15 13.9841 19.9722C14.0791 19.7955 14.1229 19.6166 14.1229 19.4434C14.1229 19.0291 14.4587 18.6934 14.8729 18.6934C15.2871 18.6934 15.6229 19.0291 15.6229 19.4434C15.6229 19.8769 15.5116 20.2987 15.3051 20.6827C15.0993 21.0653 14.8054 21.3989 14.452 21.6711C14.0987 21.9431 13.6889 22.1519 13.2492 22.2922C12.8093 22.4325 12.3422 22.5035 11.8734 22.5035C11.4045 22.5035 10.9374 22.4325 10.4975 22.2922C10.0578 22.1519 9.64798 21.9431 9.29471 21.6711C8.94129 21.3989 8.64739 21.0653 8.44158 20.6827C8.23509 20.2987 8.12378 19.8769 8.12378 19.4434C8.12378 19.0291 8.45957 18.6934 8.87378 18.6934Z" fill="#000000"/> <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd" d="M8.28966 2.36993C10.5476 1.24631 13.1934 1.20809 15.4828 2.26601L15.6874 2.36056C18.0864 3.46909 19.6223 5.87083 19.6223 8.51353L19.6223 9.82417C19.6223 10.8777 19.8519 11.9185 20.2951 12.8742L20.5598 13.445C21.7754 16.0663 20.1923 19.1303 17.3509 19.6555L17.2146 18.918L17.3509 19.6555L17.1907 19.6851C13.6756 20.3349 10.0711 20.3349 6.55594 19.6851C3.6763 19.1529 2.15285 15.967 3.54631 13.3914L3.77272 12.9729C4.3316 11.9399 4.62426 10.7839 4.62426 9.60942L4.62426 8.28813C4.62426 5.77975 6.04397 3.48746 8.28966 2.36993ZM14.8536 3.62766C12.9772 2.76057 10.8086 2.7919 8.95794 3.71284C7.22182 4.57679 6.12426 6.34893 6.12426 8.28813L6.12426 9.60942C6.12426 11.0332 5.76949 12.4345 5.09201 13.6867L4.86561 14.1052C3.95675 15.785 4.95039 17.863 6.82857 18.2101C10.1635 18.8265 13.5832 18.8265 16.9181 18.2101L17.0783 18.1805C18.9561 17.8334 20.0024 15.8084 19.199 14.076L18.9343 13.5053C18.3994 12.3518 18.1223 11.0956 18.1223 9.82416L18.1223 8.51353C18.1223 6.45566 16.9263 4.58543 15.0582 3.72221L14.8536 3.62766Z" fill="#000000"/> </g> </g> </g>
-                            
-                        </svg>
+                <button>buy now</button>
+            </div>
+            </div>
+            </div>
+            <div class="cards">
+                <img src="images/banner-3.jpg" alt="">
+                <div class="text-box">
+                <p>Design Arts</p>
+                <div>
+                    <div class="user-id">
+                    <p>@Design_11</p>
+                    <div>
+                       <img src="images/ethereum-svgrepo-com (3).svg" alt="">
+                        <p>70</p>
                     </div>
-
-                    <div class="profile">
-                        <div class="avatar">
-                            <img src="images/avatar.png" alt="">
-                        </div>
-                        <p>Akshata</p>
-                    </div>
+                </div>
+                <button>buy now</button>
+            </div>
                 </div>
             </div>
-        </nav>
-    </header>
+            <div class="cards">
+                <img src="images/banner-4.jpg" alt="">
+                <div class="text-box">
+                <p>Design Arts</p>
+                <div class="user-id">
+                    <p>@Design_11</p>
+                    <div>
+                       <img src="images/ethereum-svgrepo-com (3).svg" alt="">
+                        <p>70</p>
+                    </div>
+                </div>
+                <button>buy now</button>
+            </div>
+            </div>
+           </div>
+           </div>
+          </div>
+          <div class="collection-section">
+            <p class="collection-head">top collestion</p>
+            <div class="collection-wrapper">
+                <div class="list">
+                    <p>#1</p>
+                    <img src="images/avatar-2.png" alt="">
+                    <p>Marry Com</p>
+                </div>
+                <div class="list">
+                    <p>#2</p>
+                    <img src="images/avatar-3.png" alt="">
+                    <p>Muffin</p>
+                </div>
+                <div class="list">
+                    <p>#3</p>
+                    <img src="images/avatar-4.jpg" alt="">
+                    <p>Gigi</p>
+                </div>
+                <div class="list">
+                    <p>#4</p>
+                    <img src="images/avatar-5.png" alt="">
+                    <p>Mafia</p>
+                </div>
+                <div class="list">
+                    <p>#5</p>
+                    <img src="images/avatar-6.png" alt="">
+                    <p>Pelfizz studio</p>
+                </div>
+                <div class="list">
+                    <p>#6</p>
+                    <img src="images/avatar-7.png" alt="">
+                    <p>Jimmy</p>
+                </div>
+            </div>
+          </div>
+        
+        </main>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="Script.js"></script>
 </body>
 </html>
